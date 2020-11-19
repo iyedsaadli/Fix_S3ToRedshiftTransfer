@@ -23,7 +23,7 @@ from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
 
 
-class S3ToRedshiftTransferC(BaseOperator):
+class S3ToRedshiftTransfer2(BaseOperator):
     """
     Executes an COPY command to load files from s3 to Redshift
 
